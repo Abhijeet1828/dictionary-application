@@ -1,0 +1,8 @@
+#Packaging the jar
+
+mvn clean package shade:shade
+
+#Running the jar file 
+##Navigate to the target folder of the project
+
+java -jar DictionaryClient.jar <server-address> <server-port>

@@ -1,0 +1,15 @@
+com/distributed/project/dictionary/server/dto/DictionaryDto.class
+com/distributed/project/dictionary/server/DictionaryServer.class
+com/distributed/project/dictionary/server/utils/Constants.class
+com/distributed/project/dictionary/server/utils/DtoConversionUtils.class
+com/distributed/project/dictionary/server/gui/ClientTable.class
+com/distributed/project/dictionary/server/gui/OptionTabPane.class
+com/distributed/project/dictionary/server/utils/TypeConversionUtils.class
+com/distributed/project/dictionary/server/gui/TopPanel.class
+com/distributed/project/dictionary/server/gui/GraphPanel.class
+com/distributed/project/dictionary/server/gui/BottomPanel.class
+com/distributed/project/dictionary/server/gui/WelcomePanel.class
+com/distributed/project/dictionary/server/utils/FailureConstants.class
+com/distributed/project/dictionary/server/utils/SuccessConstants.class
+com/distributed/project/dictionary/server/DictionaryUtils.class
+com/distributed/project/dictionary/server/DictionaryServerUI.class
