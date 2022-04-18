@@ -1,2 +1,2 @@
-# dictionary-application
-Multithreaded Dictionary Application
+# Multithreaded Dictionary Application
+
