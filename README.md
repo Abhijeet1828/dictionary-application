@@ -1,5 +1,4 @@
 **MULTITHREADED DICTIONARY APPLICATION**
-![](Aspose.Words.02bc564f-6f96-4189-9256-06fef3f4002c.002.png)
 
 1. **Introduction**
 
