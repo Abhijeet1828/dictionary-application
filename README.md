@@ -1,14 +1,7 @@
-**ABHIJEET - 1278218![](Aspose.Words.02bc564f-6f96-4189-9256-06fef3f4002c.001.png)**
-
-COMP90015 - DISTRIBUTED SYSTEMS
+**ABHIJEET ![](Aspose.Words.02bc564f-6f96-4189-9256-06fef3f4002c.001.png)**
 
 **MULTITHREADED DICTIONARY APPLICATION**
-
-FULL NAME:    ABHIJEET
-
-STUDENT ID:   1278218
-
-EMAIL ID:         abhijeet1@student.unimelb.edu.au![](Aspose.Words.02bc564f-6f96-4189-9256-06fef3f4002c.002.png)
+[](Aspose.Words.02bc564f-6f96-4189-9256-06fef3f4002c.002.png)
 
 1. **Introduction**
 
