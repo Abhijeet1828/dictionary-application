@@ -9,14 +9,14 @@ The project implemented is related to a dictionary application with a **multi-th
 
 The problem statement for this application was to create a multi-threaded dictionary server that can handle multiple clients performing various operations concurrently using low-level network communication i.e sockets. The operations are - searching, adding, updating, and deleting words. All the operations once done should be visible to active as well as future clients in real-time. The user interface for the client system should be easy to understand as well as report errors that users can comprehend.
 
-3. **Server Architecture** \
+3. **Server Architecture**
 3.1. **Dictionary Server**
 
 The server is initialized by running the ***DictionaryServer.java*** file. This is used to open a socket on the port defined by the user and wait for the client connections. The client connections are handled by a thread pool. It also keeps track of the active clients connected to the server and their respective response times for each operation.
 
 3.2. **Dictionary Operations**
 
-The dictionary operations are handled by the ***DictionaryUtils.java*** file which implements the *Runnable* interface. This allows each thread to execute operations on behalf of each client. The add, update and delete operations are *synchronized* methods that only allow a single thread to access the code inside these methods to maintain concurrency and consistency across clients. Multiple exception scenarios have been handled in each of the operation methods for proper error reporting.![](Aspose.Words.02bc564f-6f96-4189-9256-06fef3f4002c.001.png)
+The dictionary operations are handled by the ***DictionaryUtils.java*** file which implements the *Runnable* interface. This allows each thread to execute operations on behalf of each client. The add, update and delete operations are *synchronized* methods that only allow a single thread to access the code inside these methods to maintain concurrency and consistency across clients. Multiple exception scenarios have been handled in each of the operation methods for proper error reporting.
 
 3.3. **Dictionary Server UI**
 
@@ -24,7 +24,7 @@ The server user interface is initialized using the ***DictionaryServerUI.java***
 
 3.4. **Dictionary Server Utilities**
 
-The server applications make use of several utility classes which have reusable code and help the main code look cleaner and more understandable for further refactoring. ***TypeConversionUtils.java*** and ***DtoConversionUtils.java*** files help convert requests and errors from the server to proper *data transfer objects* for further use. The server also makes use of frequently used constants by accessing the following files: ***Constants.java***, ***SuccessConstants.java,*** and ***FailureConstants.java***.![](Aspose.Words.02bc564f-6f96-4189-9256-06fef3f4002c.001.png)
+The server applications make use of several utility classes which have reusable code and help the main code look cleaner and more understandable for further refactoring. ***TypeConversionUtils.java*** and ***DtoConversionUtils.java*** files help convert requests and errors from the server to proper *data transfer objects* for further use. The server also makes use of frequently used constants by accessing the following files: ***Constants.java***, ***SuccessConstants.java,*** and ***FailureConstants.java***.
 
 ![](Aspose.Words.02bc564f-6f96-4189-9256-06fef3f4002c.004.jpeg)
 
@@ -39,7 +39,7 @@ The dictionary client user interface is initialized by the ***DictionaryClientUI
 
 4.3. **Dictionary Client Utilities**
 
-The client application uses utility classes for different kinds of operations such as processing the response, converting user input to request, and holding constants so that they are not duplicated everywhere. For processing the user input and converting it to relevant requests based on the action ***RequestProcessingUtils.java*** file is used. Converting the request to string format and sending it server and processing the string response to the relevant *data-transfer-object*, the ***TypeConversionUtils.java*** file is used. The ***TabPaneEnum.java*** file is used as *enumeration* for populating the dictionary client UI’s relevant fields. ***Constants.java*** file is used to hold constants that are used repeatedly in the code to reduce code duplication and keep them in a single place for further refactoring.![](Aspose.Words.02bc564f-6f96-4189-9256-06fef3f4002c.001.png)
+The client application uses utility classes for different kinds of operations such as processing the response, converting user input to request, and holding constants so that they are not duplicated everywhere. For processing the user input and converting it to relevant requests based on the action ***RequestProcessingUtils.java*** file is used. Converting the request to string format and sending it server and processing the string response to the relevant *data-transfer-object*, the ***TypeConversionUtils.java*** file is used. The ***TabPaneEnum.java*** file is used as *enumeration* for populating the dictionary client UI’s relevant fields. ***Constants.java*** file is used to hold constants that are used repeatedly in the code to reduce code duplication and keep them in a single place for further refactoring.
 
 ![](Aspose.Words.02bc564f-6f96-4189-9256-06fef3f4002c.006.png)
 
