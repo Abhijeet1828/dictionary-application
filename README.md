@@ -99,11 +99,11 @@ In conclusion, we created a **multi-threaded dictionary** application with a **c
 2. Intro to the Jackson ObjectMapper, Baeldung, <[https://www.baeldung.com/jackson-object-mapper-tutorial>](https://www.baeldung.com/jackson-object-mapper-tutorial)
 
 3. A guide to the Java ExecutorService, Baeldung, <[https://www.baeldung.com/java-executor-service-tutorial>](https://www.baeldung.com/java-executor-service-tutorial)
-3. Java Map with Case-Insenstive Keys, Baeldung, <[https://www.baeldung.com/java-map-with-case-insensitive-keys>](https://www.baeldung.com/java-map-with-case-insensitive-keys)
-3. A guide to ConcurrentMap, Baeldung, <http[s://www.baeldung.com/java-concurrent-map>](https://www.baeldung.com/java-concurrent-map)
-3. Create a fat Jar file - Maven Shade Plugin, Mykong, <[https://mkyong.com/maven/create-a-fat-jar-file-maven-shade-plugin/>](https://mkyong.com/maven/create-a-fat-jar-file-maven-shade-plugin/)
+4. Java Map with Case-Insenstive Keys, Baeldung, <[https://www.baeldung.com/java-map-with-case-insensitive-keys>](https://www.baeldung.com/java-map-with-case-insensitive-keys)
+5. A guide to ConcurrentMap, Baeldung, <http[s://www.baeldung.com/java-concurrent-map>](https://www.baeldung.com/java-concurrent-map)
+6. Create a fat Jar file - Maven Shade Plugin, Mykong, <[https://mkyong.com/maven/create-a-fat-jar-file-maven-shade-plugin/>](https://mkyong.com/maven/create-a-fat-jar-file-maven-shade-plugin/)
+
 10. **User Interface Images**
 
 ![](Aspose.Words.02bc564f-6f96-4189-9256-06fef3f4002c.020.jpeg)![](Aspose.Words.02bc564f-6f96-4189-9256-06fef3f4002c.021.jpeg)
-8
 
