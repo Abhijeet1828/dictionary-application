@@ -9,7 +9,7 @@ The project implemented is related to a dictionary application with a **multi-th
 
 The problem statement for this application was to create a multi-threaded dictionary server that can handle multiple clients performing various operations concurrently using low-level network communication i.e sockets. The operations are - searching, adding, updating, and deleting words. All the operations once done should be visible to active as well as future clients in real-time. The user interface for the client system should be easy to understand as well as report errors that users can comprehend.
 
-3. **Server Architecture**
+3. **Server Architecture**\n
 3.1. **Dictionary Server**
 
 The server is initialized by running the ***DictionaryServer.java*** file. This is used to open a socket on the port defined by the user and wait for the client connections. The client connections are handled by a thread pool. It also keeps track of the active clients connected to the server and their respective response times for each operation.
