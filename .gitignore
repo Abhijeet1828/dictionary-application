@@ -1,0 +1,10 @@
+
+dictionary-client/.classpath
+
+dictionary-client/.settings/
+
+*.class
+
+dictionary-server/.classpath
+
+dictionary-server/.settings/
